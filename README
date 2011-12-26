@@ -13,8 +13,9 @@ Installation:
 The backend that serves json snippets parsed from pto files requires Python and web.py.
 
 pip install -r requirements.txt
-Create 2 directories in the project root "pto" and "img" and place the respective files in there
-bin/start_server.sh
+Create 2 directories in the project root "pto" and "img" and place your source pto and image (jpg) files files in there respectively.
+
+Fire up the web server with: bin/start_server.sh
 Go to http://localhost:8080/static/index.html
 
 [1] https://github.com/mrdoob/three.js
