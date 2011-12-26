@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $(dirname $(dirname $0))/static/
-python -m SimpleHTTPServer
+cd $(dirname $(dirname $0))/py/
+python app.py
 cd -
 

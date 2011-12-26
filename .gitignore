@@ -1,0 +1,8 @@
+*.db
+*.pyc
+*.swp
+*.log
+.tmp*
+/pto
+/img
+cache
